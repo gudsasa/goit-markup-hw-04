@@ -249,6 +249,26 @@ img {
     letter-spacing: 0.02em;
 }
 
+.social-block {
+}
+.icons-list{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+.social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+}
+.icon-item {
+    fill: none;
+}
 /** ----------------------------------------- **/
 
 /** ------------- section-three ------------- **/
@@ -399,6 +419,9 @@ img {
 
 
 .social-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #FFF;
     font-size: 16px;
     font-weight: 500;
@@ -408,14 +431,4 @@ img {
         display: inline-block;
 }
 
-.icons-list {
-    display: flex;
-}
-.icon-item {
-    display: flex;
-    width: 40px;
-        height: 40px;
-        flex-shrink: 0;
-        fill:#4D5AE5;
-}
 /** ----------------------------------- **/
